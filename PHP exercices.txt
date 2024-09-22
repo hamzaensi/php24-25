@@ -1,0 +1,169 @@
+/* Variables */
+
+1. Déclaration et affichage des variables
+Exercice :
+Créez trois variables pour stocker un nom, un âge, et une ville. Affichez-les en une seule phrase comme suit :
+"Je m'appelle [nom], j'ai [âge] ans et j'habite à [ville]."
+
+2. Modification de variables
+Exercice :
+Créez une variable pour stocker une somme de 100. Ajoutez 50 à cette somme, puis soustrayez 30. Affichez la nouvelle valeur de la variable.
+
+3. Variables de type booléen
+Exercice :
+Créez une variable booléenne appelée $estEtudiant et affectez-lui la valeur true. Utilisez une condition pour afficher "Vous êtes étudiant" si la valeur est vraie, sinon affichez "Vous n'êtes pas étudiant".
+
+4. Concatenation de variables
+Exercice :
+Créez deux variables : une pour un prénom et une pour un nom de famille. Affichez-les ensemble sous la forme "Nom complet : [prénom] [nom]".
+
+5. Échange de valeurs entre variables
+Exercice :
+Créez deux variables $a et $b, initialisez-les avec des valeurs. Échangez les valeurs de ces deux variables (sans en créer une troisième), puis affichez les nouvelles valeurs.
+
+/* Strings */ 
+
+1. Longueur d'une chaîne
+Exercice :
+Créez une variable contenant une chaîne de caractères. Affichez la longueur de cette chaîne en utilisant une fonction PHP appropriée.
+
+2. Remplacement de sous-chaîne
+Exercice :
+Créez une variable contenant la phrase "Bonjour tout le monde". Remplacez "monde" par "PHP" et affichez la nouvelle phrase.
+
+3. Concaténation de chaînes
+Exercice :
+Créez deux variables : une contenant "Bonjour" et l'autre contenant "tout le monde". Utilisez la concaténation pour afficher "Bonjour tout le monde".
+
+4. Conversion de casse
+Exercice :
+Créez une chaîne contenant "Bonjour". Transformez-la en lettres majuscules, puis en lettres minuscules, et affichez le résultat à chaque fois.
+
+5. Extraction de sous-chaîne
+Exercice :
+Créez une chaîne contenant "Programmation en PHP". Utilisez une fonction pour extraire le mot "PHP" et affichez-le.
+
+
+/* Numbers */ 
+
+1. Addition de nombres
+Exercice :
+Créez deux variables contenant des nombres (par exemple, 15 et 30). Calculez leur somme et affichez le résultat.
+
+2. Division et arrondi
+Exercice :
+Créez deux variables : l'une contenant 10 et l'autre contenant 3. Divisez les deux nombres et arrondissez le résultat à deux décimales avant de l'afficher.
+
+3. Nombre aléatoire
+Exercice :
+Générez un nombre aléatoire entre 1 et 100 en utilisant une fonction PHP, puis affichez-le.
+
+4. Puissance d'un nombre
+Exercice :
+Créez une variable contenant le nombre 5. Élevez ce nombre à la puissance 3 (c'est-à-dire 5³) et affichez le résultat.
+
+5. Vérification d'un nombre pair ou impair
+Exercice :
+Créez une variable contenant un nombre. Utilisez une condition pour vérifier si le nombre est pair ou impair, puis affichez le résultat.
+
+
+*/ Operations */ 
+
+1. Addition et soustraction
+Exercice :
+Créez deux variables contenant des nombres (par exemple, 20 et 5). Calculez leur somme et leur différence, puis affichez les résultats.
+
+2. Multiplication et division
+Exercice :
+Créez deux variables contenant des nombres (par exemple, 10 et 2). Multipliez-les, puis divisez-les et affichez les résultats.
+
+3. Modulus (Reste de la division)
+Exercice :
+Créez deux variables contenant des nombres (par exemple, 15 et 4). Calculez le reste de la division (modulus) de ces deux nombres et affichez-le.
+
+4. Incrémentation et décrémentation
+Exercice :
+Créez une variable contenant le nombre 10. Utilisez l'incrémentation pour ajouter 1 à cette variable, puis la décrémentation pour soustraire 1. Affichez le résultat à chaque étape.
+
+5. Priorité des opérations
+Exercice :
+Créez une variable contenant l'expression suivante : 5 + 3 * 4 - 2. Calculez le résultat en respectant les priorités des opérations et affichez-le.
+
+
+
+*/ If ... else .. .. */ 
+
+1. Comparaison simple
+Exercice :
+Créez une variable $age. Si l'âge est supérieur ou égal à 18, affichez "Vous êtes majeur", sinon affichez "Vous êtes mineur".
+
+2. Vérification d'un nombre positif, négatif ou nul
+Exercice :
+Créez une variable $nombre. Si le nombre est supérieur à 0, affichez "Nombre positif", s'il est inférieur à 0, affichez "Nombre négatif", sinon affichez "Le nombre est nul".
+
+3. Comparaison de deux variables
+Exercice :
+Créez deux variables $a et $b. Si $a est supérieur à $b, affichez "a est plus grand que b", sinon affichez "a est plus petit ou égal à b".
+
+4. Vérification de la parité d'un nombre
+Exercice :
+Créez une variable $nombre. Utilisez une condition if..else pour vérifier si ce nombre est pair ou impair, puis affichez "Nombre pair" ou "Nombre impair".
+
+5. Évaluation d'une note
+Exercice :
+Créez une variable $note (valeur entre 0 et 20). Si la note est supérieure ou égale à 10, affichez "Réussi", sinon affichez "Échec".
+
+
+
+/* Loop */ 
+
+1. Boucle for simple
+Exercice :
+Créez une boucle for qui affiche les nombres de 1 à 10.
+
+2. Somme des éléments d'un tableau
+Exercice :
+Créez un tableau de nombres. Utilisez une boucle foreach pour calculer et afficher la somme de tous les éléments du tableau.
+
+3. Boucle while avec condition
+Exercice :
+Utilisez une boucle while pour afficher les nombres pairs entre 1 et 20.
+
+4. Boucle imbriquée
+Exercice :
+Créez une boucle for imbriquée pour afficher une table de multiplication de 1 à 5.
+
+5. Boucle do...while
+Exercice :
+Créez une variable contenant 5. Utilisez une boucle do...while pour décrémenter cette variable et afficher sa valeur tant qu'elle est supérieure à 0.
+
+
+*/ Functions */ 
+
+1. Fonction qui calcule la somme
+Exercice :
+Créez une fonction appelée additionner qui prend deux paramètres et retourne leur somme. Appelez cette fonction avec des valeurs et affichez le résultat.
+
+2. Fonction qui vérifie si un nombre est pair
+Exercice :
+Créez une fonction appelée estPair qui prend un nombre en paramètre et retourne true s'il est pair, sinon false. Utilisez cette fonction pour afficher un message indiquant si un nombre donné est pair ou impair.
+
+3. Fonction qui calcule la factorielle
+Exercice :
+Créez une fonction appelée factorielle qui prend un nombre en paramètre et retourne la factorielle de ce nombre (par exemple, la factorielle de 5 est 5 * 4 * 3 * 2 * 1). Appelez la fonction avec différents nombres et affichez le résultat.
+
+4. Fonction avec valeur par défaut
+Exercice :
+Créez une fonction appelée salutation qui prend un paramètre pour le nom et affiche "Bonjour [nom]". Si aucun nom n'est fourni, affichez "Bonjour invité". Testez la fonction avec et sans paramètre.
+
+5. Fonction qui retourne un tableau
+Exercice :
+Créez une fonction appelée obtenirNombresPairs qui prend un nombre en paramètre et retourne un tableau contenant tous les nombres pairs de 0 jusqu'à ce nombre. Affichez le tableau retourné.
+
+
+
+
+
+
+
+
