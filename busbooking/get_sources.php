@@ -1,6 +1,21 @@
 <?php
 header("Content-Type: application/json");
 
+// Allow from any origin
+header("Access-Control-Allow-Origin: *");
+
+// Allow specific HTTP methods
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+
+// Allow specific headers
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
+// Exit early for OPTIONS requests (CORS preflight)
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    http_response_code(200);
+    exit;
+}
+
 // Database connection
 $conn = new mysqli("localhost", "root", "", "BusBooking");
 if ($conn->connect_error) {
